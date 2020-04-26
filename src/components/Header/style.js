@@ -15,11 +15,7 @@ export const style = StyleSheet.create({
   rowContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-  },
-  title: {
-    color: '#000',
-    fontFamily: 'shelter',
-    fontSize: 24,
+    justifyContent: 'center',
   },
   logo: {
     marginRight: 10,

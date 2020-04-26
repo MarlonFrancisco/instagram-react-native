@@ -6,12 +6,7 @@ export const style = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 25,
-  },
-  title: {
-    marginBottom: 25,
-  },
-  containerForm: {
-    width: '100%',
+    paddingTop: 50,
   },
   input: {
     borderWidth: 1,
@@ -20,28 +15,25 @@ export const style = StyleSheet.create({
     marginBottom: 15,
     padding: 10,
   },
-  button: {
-    borderRadius: 4,
-    padding: 15,
-  },
-  footer: {
-    padding: 15,
-    borderWidth: 1,
-    borderColor: 'lightgray',
-  },
-  titleFooter: {
-    fontSize: 14,
-    color: 'gray',
-    textAlign: 'center',
-  },
-  containerRegister: {
-    flexDirection: 'row',
+  containerForm: {
+    width: '100%',
     marginTop: 20,
   },
-  registerTitle: {
-    color: 'gray',
+  button: {
+    borderRadius: 4,
   },
-  registerLink: {
+  footer: {
+    padding: 10,
+    borderTopWidth: 1,
+    borderTopColor: 'lightgray',
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  titleFooter: {
+    color: 'gray',
+    marginRight: 5,
+  },
+  loginTitle: {
     color: 'blue',
     fontWeight: 'bold',
   },

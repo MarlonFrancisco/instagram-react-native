@@ -10,6 +10,7 @@ import SendPost from './src/screens/SendPost';
 import Profile from './src/screens/Profile';
 import EditProfile from './src/screens/EditProfile';
 import Login from './src/screens/Login';
+import Register from './src/screens/Register';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -32,6 +33,7 @@ export default () => (
         <Stack.Screen name="EditProfile" component={EditProfile} />
         <Stack.Screen name="SendPost" component={SendPost} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Register" component={Register} />
       </Stack.Navigator>
     </NavigationContainer>
   </>

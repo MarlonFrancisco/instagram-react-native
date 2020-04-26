@@ -7,9 +7,7 @@ const Tab = createBottomTabNavigator();
 export default ({children}) => (
   <Tab.Navigator
     screenOptions={({route}) => ({
-      tabBarVisible: !['Gallery', 'SendPost', 'EditProfile'].includes(
-        route.name,
-      ),
+      tabBarVisible: !['Gallery'].includes(route.name),
       tabBarIcon: ({focused, color, size}) => {
         let iconName;
 
